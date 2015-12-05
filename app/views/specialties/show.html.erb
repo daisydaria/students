@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Code:</strong>
+  <%= @specialty.code %>
+</p>
+
+<p>
+  <strong>Gen:</strong>
+  <%= @specialty.gen %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @specialty.title %>
+</p>
+
+<p>
+  <strong>Level:</strong>
+  <%= @specialty.level %>
+</p>
+
+<%= link_to 'Edit', edit_specialty_path(@specialty) %> |
+<%= link_to 'Back', specialties_path %>
